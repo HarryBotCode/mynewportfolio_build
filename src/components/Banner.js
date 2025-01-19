@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Software Engineer", "Web Developer", "MERN Developer" ];
+  const toRotate = [ "Software Engineer", "Full-Stack Developer", "MERN Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Haris Javed`}<br></br> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Software Engineer", "Web Developer", "MERN Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>A Front-end developer with 3 years of experience in building user interfaces for web applications. Highly skilled in using HTML5/CSS, Javascript, React.js and a decent knowledge of Bootstrap and Material-UI to create responsive user interfaces. A strong ability to translate business requirements into technical specifications.</p>
+                  <p>A Full-Stack Developer with 2 years of experience in building responsive and scalable web and mobile applications. Highly skilled in JavaScript, React.js, and React Native for front-end development, with solid expertise in Node.js, Express.js, and MongoDB for back-end development. Proficient in translating business requirements into technical solutions and delivering seamless user interfaces. Focused on optimizing performance and ensuring cross-platform compatibility for both web and mobile applications.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

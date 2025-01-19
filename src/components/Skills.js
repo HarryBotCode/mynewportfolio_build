@@ -37,33 +37,30 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>I have worked with a range of technologies in the web development world. <br></br> From Back-end to Web Designs.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                            
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>React</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>ReactJS</h5>
+                                <h5>React Native</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Redux</h5>
-                            </div>
-                            <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>NextJS</h5>
+                                <h5>RTK Query</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>NodeJS</h5>
+                                <h5>Node</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
-                                <h5>ExpressJS</h5>
+                                <img src={meter2} alt="Image" />
+                                <h5>Express</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="Image" />
@@ -76,6 +73,10 @@ export const Skills = () => {
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Chakra-UI</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="Image" />
+                                <h5>Material-UI</h5>
                             </div>
                         </Carousel>
                     </div>
